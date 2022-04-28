@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lesson_16</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">здесь будет header</header>
+		<main class="main">
+			<div class="main__form">
+				<div class="appointment">
+					<div class="appointment__container">
+						<form action="#" class="form-one">
+							<h2 class="form-one__title">
+								Make an appointment
+							</h2>
+							<div class="form-one__body">
+								<div class="form-one__block">
+									<input class="form-one__input" autocomplete="off" required placeholder="Name" type="text"
+										name="username">
+								</div>
+								<div class="form-one__block">
+									<input class="form-one__input" autocomplete="off" required placeholder="Email" name="email"
+										type="email">
+								</div>
+								<div class="form-one__block">
+									<input class="form-one__input" autocomplete="off" required placeholder="Phone Number"
+										name="phone" type="tel">
+								</div>
+								<div class="form-one__block">
+									<select name="select" class="form-one__select">
+										<option value="1">Select Service</option>
+										<option value="2">Select Service №2</option>
+										<option value="3">Select Service №3</option>
+										<option value="4">Select Service №4</option>
+									</select>
+								</div>
+							</div>
+							<div class="form-one__textarea">
+								<textarea placeholder="Tell us about your puppers include his/her name" autocomplete="off"
+									name="textarea" class="form-one__text"></textarea>
+							</div>
+							<div class="form-one__button">
+								<button type="submit" class="button-form">Make an Appointment</button>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="customers">
+					<div class="customers__container">
+						<form action="#" class="form-two">
+							<div class="form-two__titles">
+								<h2 class="form-two__title">
+									Registered Customers
+								</h2>
+								<p class="form-two__text">
+									If you have an account, sign in with your email address.
+								</p>
+							</div>
+							<div class="form-two__items">
+								<div class="form-two__item">
+									<label for="input_01" class="form-two__label">Email</label>
+									<input id="input_01" autocomplete="off" required placeholder="Your email" name="input_01"
+										type="text" class="form-two__input">
+								</div>
+								<div class="form-two__item">
+									<label for="input_02" class="form-two__label">Password </label>
+									<input id="input_02" autocomplete="off" required placeholder="input_01" name="password"
+										type="text" class="form-two__input">
+								</div>
+							</div>
+							<div class="form-two__sing-up">
+								<button class="form-two__button">Sign In</button>
+								<a href="#" class="form-two__link">Forgot Your Password?</a>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="summary">
+					<div class="summary__container">
+						<form action="#" class="form-three">
+							<div class="form-three__titles">
+								<h2 class="form-three__title">
+									Summary
+								</h2>
+								<h3 class="form-three__sub-title">
+									Estimate Shipping and Tax
+								</h3>
+								<p class="form-three__text">
+									Enter your destination to get a shipping estimate.
+								</p>
+							</div>
+							<div class="form-three__items">
+								<div class="form-three__item">
+									<label for="select_01" class="form-three__lable">Country</label>
+									<select name="select" id="select_01" class="form-three__select">
+										<option value="1">Australia</option>
+										<option value="2">Italia</option>
+										<option value="3">Portugalia</option>
+										<option value="4">Ukraine</option>
+									</select>
+								</div>
+								<div class="form-three__item">
+									<label for="input_03" class="form-three__lable">State/Province</label>
+									<input id="input_03" autocomplete="off" required placeholder="Your password" name="input_03"
+										type="text" class="form-three__input">
+								</div>
+								<div class="form-three__item">
+									<label for="input_04" class="form-three__lable">Zip/Postal Code</label>
+									<input id="input_04" autocomplete="off" required placeholder="Your password" name="input_04"
+										type="text" class="form-three__input">
+								</div>
+							</div>
+							<div class="form-three__radio-buttons radio-button">
+								<div class="radio-button__item">
+									<h5 class="radio-button__title">Standard Rate</h5>
+									<input id="color_1" autocomplete="off" type="radio" name="color_1"
+										class="radio-button__input">
+									<label for="color_1" class="radio-button__label">
+										Price may vary depending on the item/destination. Shop Staff will contact you. $21.00
+									</label>
+								</div>
+								<div class="radio-button__item">
+									<h5 class="radio-button__title">Pickup from store</h5>
+									<input id="color_2" autocomplete="off" type="radio" name="color_2"
+										class="radio-button__input">
+									<label for="color_2" class="radio-button__label">1234 Street Adress City Address, 1234
+										$0.00</label>
+								</div>
+							</div>
+							<div class="form-three__discount">
+								<h3 class="form-three__sub-title">Apply Discount Code</h3>
+								<div class="form-three__item">
+									<label for="input_05" class="form-three__lable">State/Province</label>
+									<input id="input_05" autocomplete="off" required placeholder="Enter Discount code"
+										name="input_05" type="text" class="form-three__input">
+								</div>
+								<button class="form-three__button">Apply Discount</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">здесь будет footer</footer>
+	</div>
+</body>
+
+</html>
